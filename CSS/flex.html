@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flex</title>
+</head>
+<style>
+   *{
+    text-decoration: none;
+   }
+   .navbar{
+    background-color:aqua; padding-right: 15px; padding-left: 15px;
+   }
+   .navdi{
+    display: flex; align-items: center; justify-content: space-between;
+   }
+   .logo a{
+    font-size: 35px; 
+    font-weight: 600;
+    color: white;
+   }
+   li{
+    list-style: none;
+    display: inline-block;
+   }
+   .li a{
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    margin-right: 25px;
+   }
+</style>
+<body> 
+   <nav class="navbar">
+    <div class="navdi">
+        <div class="logo"><a href="#">codingNija</a></div>
+        <ul>
+            <li><a href="#"></a>Home</li>
+            <li><a href="#"></a>About</li>
+            <li><a href="#"></a>Contact</li>
+            <button><a href="#">SigIn</a></button>
+            <button><a href="#">SigUp</a></button>
+        </ul>
+    </div>
+   </nav>
+</body>
+</html>

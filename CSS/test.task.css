@@ -1,0 +1,26 @@
+body{
+    margin: 0;
+    padding: 0;
+width: 100%;
+height: 100vh;
+box-sizing: border-box;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.box{
+    width: 100px;
+    height: 100px;
+    background:green;
+   animation: box;
+   animation-duration: 5s;
+   animation-iteration-count: 100;
+}
+@keyframes box{
+    from{
+transform: translateX(-5000px) rotateZ(660000deg) translateY(-500deg);
+    }
+    to{
+transform: translateX(500px);
+    }
+}   
